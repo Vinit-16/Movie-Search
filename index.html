@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Search App</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>🎥 Movie Search App</h1>
+      <p>Find movies you love and save them to your favorites!</p>
+    </header>
+    <main>
+      <section class="search-section">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Search for a movie..."
+        />
+        <button id="searchBtn">🔍 Search</button>
+      </section>
+      <section id="movieResults" class="movies">
+        <h2>Search Results</h2>
+      </section>
+      <section class="favorites-section">
+        <h2>❤️ Your Favorites</h2>
+        <div id="favorites" class="movies"></div>
+      </section>
+    </main>
+    <footer>
+      <p>Made with ❤️ by <strong>Vinit Sorathia</strong></p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
